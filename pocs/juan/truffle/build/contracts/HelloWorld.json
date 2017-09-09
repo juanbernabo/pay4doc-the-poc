@@ -1,0 +1,25 @@
+{
+  "contract_name": "HelloWorld",
+  "abi": [
+    {
+      "payable": false,
+      "type": "fallback"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "log",
+          "type": "bytes32"
+        }
+      ],
+      "name": "log_string",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600e57600080fd5b5b60918061001d6000396000f30060606040525b3415600f57600080fd5b5b7ffd55d4456e7e5dcc9519b5525583c43cf9c7213c0d06a41c488aff5b65319f366040517f48656c6c6f20576f726c64210000000000000000000000000000000000000000815260200160405180910390a15b0000a165627a7a723058209804c964a9dfd4b84bfbe22657c3e1e4e7dcf5a6ab14e4a3a9555eaba7d104300029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1504978157426
+}
